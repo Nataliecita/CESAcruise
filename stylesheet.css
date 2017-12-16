@@ -28,27 +28,34 @@
 .illustration img {
   width: 100%;
   display: block;
+  /*background-size: cover;*/
+}
+
+
+#main-pic {
+  opacity: 0.75;
+  filter: alpha(opacity=75); /* For IE8 and earlier */
 }
 
 body {
   font-family: 'Oswald', sans-serif;
 }
 
-h2 {
-  position: absolute;
-  top: 30%;
-  left: 30%;
-}
-
-
 .caption {
   position: absolute;
- top: 50%;
+ top: 30%;
  left: 50%;
  transform: translate( -50%, -50% );
- /*text-align: center;*/
- /*text-shadow: 4px 4px 4px #aaa;*/
  color: white;
- font-size: 48px;
+
  font-weight: bold;
+}
+
+#cruise-big {
+  font-size: 72px;
+}
+
+#slogan {
+  /*text-shadow: 4px 4px 4px #aaa;*/
+  font-size: 24px;
 }
