@@ -81,8 +81,34 @@ body {
   height:auto;
 }
 
+.product-benefits{
+  background-color: red;
+}
+
+.vorteile{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  background-color: white;
+}
+
+.use-cases{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+.vorteile-icon{
+  max-width: 100%;
+}
 
 
+/*MASTERCARD example*/
 
 /*makes input button disappear*/
 .cc-selector input{
