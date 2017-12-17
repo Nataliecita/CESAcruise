@@ -58,3 +58,16 @@ body {
   /*text-shadow: 4px 4px 4px #aaa;*/
   font-size: 24px;
 }
+
+.product-selection {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+.product-image {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
