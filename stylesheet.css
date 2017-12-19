@@ -115,6 +115,11 @@ body {
   width: 150px;
 }
 
+.technical-details {
+  width: 100%;
+  /*position: absolute;*/
+}
+
 figure{
    text-align: center;
 }
