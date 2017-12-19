@@ -113,7 +113,10 @@ body {
 .transportation {
   height: 150px;
   width: 150px;
-  border-radius: 520px;
+}
+
+figure{
+   text-align: center;
 }
 
 
