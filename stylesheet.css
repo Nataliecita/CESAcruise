@@ -104,6 +104,8 @@ html, body {
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
 }
 
+/*specific colors*/
+
 .color-choose input[type="radio"]#black + label span {
   background-color: #000000;
 }
@@ -147,12 +149,29 @@ html, body {
 }
 
 #slogan {
-  /*text-shadow: 4px 4px 4px #aaa;*/
+  text-shadow: 4px 4px 4px #aaa;
   font-size: 24px;
 }
 
-/* Responsive */
-@media (max-width: 940px) {
+
+/* Mobile Styles */
+@media only screen and (max-width: 415px) {
+  /*testing*/
+  /*body {
+    background-color: #F09A9D;
+  }*/
+  .left-column img {
+    width: 220px;
+  }
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 416px) and (max-width: 960px) {
+  /*testing*/
+  /*body {
+    background-color: #F5CF8E;
+  }*/
   .container {
     flex-direction: column;
     margin-top: 60px;
@@ -164,23 +183,20 @@ html, body {
   }
 
   .left-column img {
-    width: 300px;
+    width: 450px;
     right: 0;
     top: -65px;
     left: initial;
   }
 }
 
-@media (max-width: 535px) {
-  .left-column img {
-    width: 220px;
-    top: -85px;
-  }
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  /*testing*/
+  /*body {
+    background-color: #B2D6FF;
+  }*/
 }
-
-
-
-
 
 /*
 .product-selection {
