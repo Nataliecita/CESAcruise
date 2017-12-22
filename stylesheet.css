@@ -113,11 +113,11 @@ html, body {
 .color-choose input[type="radio"]#yellow + label span {
   background-color: #f4f432;
 }
-.color-choose input[type="radio"]#white + label span {
-  background-color: white;
+.color-choose input[type="radio"]#gray + label span {
+  background-color: #808080;
 }
-.color-choose input[type="radio"]#yellow + label span {
-  background-color: #f4f432;
+.color-choose input[type="radio"]#transparent + label span {
+  background-color: #e1dede;
 }
 
 
