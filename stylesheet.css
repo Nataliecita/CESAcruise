@@ -26,7 +26,8 @@ html, body {
 .right-column {
   width: 35%;
   margin-top: 60px;
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 
