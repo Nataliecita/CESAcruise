@@ -144,6 +144,36 @@ html, body {
   font-size: 24px;
 }
 
+.row {
+  display: -ms-flexbox; /* IE10 */
+ display: flex;
+ -ms-flex-wrap: wrap; /* IE10 */
+ flex-wrap: wrap;
+ padding: 0 4px;
+}
+
+/*create 4 columns for advantages*/
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+/*.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}*/
+
+.column figure {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+figure{
+   text-align: center;
+}
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 415px) {
@@ -155,7 +185,6 @@ html, body {
     width: 220px;
   }
 }
-
 
 /* Tablet Styles */
 @media only screen and (min-width: 416px) and (max-width: 960px) {
@@ -189,28 +218,7 @@ html, body {
   }*/
 }
 
-/*
-.product-selection {
-    width: 40%;
-    float: left;
-    padding: 20px;
-    /*border: 1px solid red;*/
-/*}*/
-
-
-/*.product-image {
-    width: 60%;
-    float: left;
-    padding: 15px;
-    /*border: 1px solid red;*/
-/*}*/
-
-/*.display-image {
-  max-width: 100%;
-  height:auto;
-}
-
-.product-benefits{
+/*.product-benefits{
   background-color: red;
 }
 
@@ -247,7 +255,7 @@ html, body {
 .technical-details {
   width: 100%;
 }
-
+*/
 figure{
    text-align: center;
-}*/
+}
