@@ -153,10 +153,20 @@ html, body {
   flex-wrap: wrap;
 }
 
-
-figure{
-   text-align: center;
+.vorteile-icon{
+  max-width: 100%;
+  height: 150px;
+  width: 150px;
 }
+
+figcaption {
+  height:30px;
+  width: 200px;
+  word-wrap:normal;
+  text-align: center;
+}
+
+
 
 
 /* Mobile Styles */
@@ -192,6 +202,10 @@ figure{
     top: -65px;
     left: initial;
   }
+
+  figure {
+   max-width: 48%;
+ }
 }
 
 /* Desktop Styles */
@@ -224,12 +238,7 @@ figure{
   text-align: center;
 }
 
-.vorteile-icon{
-  max-width: 100%;
-  height: 150px;
-  width: 150px;
 
-}
 
 .transportation {
   height: 150px;
