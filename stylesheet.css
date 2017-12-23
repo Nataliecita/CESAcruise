@@ -11,9 +11,9 @@ html, body {
 }
 
 .container {
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: 0 auto;
-  padding: 20px;
+  /*padding: 20px;*/
   display: flex;
 }
 
@@ -39,26 +39,8 @@ html, body {
 }
 /* Right Column */
 
-/* Product Description */
-.product-description {
-  border-bottom: 1px solid #E1E8EE;
-  margin-bottom: 20px;
-}
-.product-description span {
-  font-size: 18px;
-  color: #358ED7;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.product-description h1 {
-  font-weight: 300;
-  font-size: 52px;
-  color: #43484D;
-  letter-spacing: -2px;
-}
-
 /* Product Configuration */
+/*"selector"*/
 .product-color span,
 .cable-config span {
   font-size: 14px;
@@ -148,9 +130,16 @@ html, body {
    text-align: center;
 }
 
+.container-vorteile {
+  padding-top: 5px;
+  /*padding-bottom: 5px;*/
+  background-color: #e1dede;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .vorteile-icon{
@@ -168,6 +157,7 @@ figcaption {
 
 
 
+/*RESPONSIVE*/
 
 /* Mobile Styles */
 @media only screen and (max-width: 415px) {
