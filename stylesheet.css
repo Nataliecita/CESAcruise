@@ -144,31 +144,15 @@ html, body {
   font-size: 24px;
 }
 
+.title {
+   text-align: center;
+}
+
 .row {
-  display: -ms-flexbox; /* IE10 */
- display: flex;
- -ms-flex-wrap: wrap; /* IE10 */
- flex-wrap: wrap;
- padding: 0 4px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-/*create 4 columns for advantages*/
-.column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-/*.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}*/
-
-.column figure {
-    margin-top: 8px;
-    vertical-align: middle;
-}
 
 figure{
    text-align: center;
