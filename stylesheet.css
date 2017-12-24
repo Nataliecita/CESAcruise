@@ -79,7 +79,7 @@ html, body {
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
 }
 
-/*add check mark*/
+/*add check mark to active class*/
 .color-choose input[type="radio"]:checked + label span {
   background-image: url(public/images/check-mark2.svg);
   background-repeat: no-repeat;
@@ -138,8 +138,8 @@ html, body {
    text-align: center;
 }
 
-.container-vorteile {
-  padding-top: 5px;
+.container-2 {
+  padding-top: 15px;
   /*padding-bottom: 5px;*/
   background-color: #e1dede;
 }
@@ -162,6 +162,19 @@ figcaption {
   word-wrap:normal;
   text-align: center;
 }
+
+/*technical details*/
+
+/*use cases*/
+
+/*.transportation {
+  height: 150px;
+  width: 150px;
+}*/
+/*
+.technical-details {
+  width: 100%;
+}*/
 
 
 
@@ -212,41 +225,4 @@ figcaption {
   /*body {
     background-color: #B2D6FF;
   }*/
-}
-
-/*.product-benefits{
-  background-color: red;
-}
-
-.vorteile{
-  width: 50%;
-  float: left;
-  padding: 20px;
-  background-color: white;
-}
-
-.use-cases{
-  width: 50%;
-  float: left;
-  padding: 20px;
-  background-color: white;
-}
-
-.title {
-  text-align: center;
-}
-
-
-
-.transportation {
-  height: 150px;
-  width: 150px;
-}
-
-.technical-details {
-  width: 100%;
-}
-*/
-figure{
-   text-align: center;
 }
