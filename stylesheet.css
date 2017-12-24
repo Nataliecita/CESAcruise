@@ -19,6 +19,7 @@ html, body {
 
 /* Columns */
 .left-column {
+  margin-top: 20px;
   width: 65%;
   position: relative;
 }
@@ -183,7 +184,7 @@ figcaption {
 
   .left-column,
   .right-column {
-    width: 100%;
+    width: 95%;
   }
 
   .left-column img {
