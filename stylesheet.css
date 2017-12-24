@@ -11,21 +11,22 @@ html, body {
 }
 
 .container {
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: 0 auto;
-  padding: 20px;
+  /*padding: 20px;*/
   display: flex;
 }
 
 /* Columns */
 .left-column {
+  margin-top: 20px;
   width: 65%;
   position: relative;
 }
 
 .right-column {
   width: 35%;
-  margin-top: 60px;
+  margin-top: 20px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -39,26 +40,8 @@ html, body {
 }
 /* Right Column */
 
-/* Product Description */
-.product-description {
-  border-bottom: 1px solid #E1E8EE;
-  margin-bottom: 20px;
-}
-.product-description span {
-  font-size: 18px;
-  color: #358ED7;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.product-description h1 {
-  font-weight: 300;
-  font-size: 52px;
-  color: #43484D;
-  letter-spacing: -2px;
-}
-
 /* Product Configuration */
+/*"selector"*/
 .product-color span,
 .cable-config span {
   font-size: 14px;
@@ -94,6 +77,13 @@ html, body {
 .color-choose input[type="radio"] + label span {
   border: 2px solid #FFFFFF;
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+}
+
+/*add check mark to active class*/
+.color-choose input[type="radio"]:checked + label span {
+  background-image: url(public/images/check-mark2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*specific colors*/
@@ -148,9 +138,16 @@ html, body {
    text-align: center;
 }
 
+.container-2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #e1dede;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .vorteile-icon{
@@ -166,8 +163,48 @@ figcaption {
   text-align: center;
 }
 
+/*technical details*/
+
+.center-content {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.container-2 p{
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  /*color: #86939E;*/
+}
+
+.brand {
+  font-weight: bold;
+}
 
 
+.container-2 ul {
+  margin-top: 0px;
+  margin-left: -40px;
+  list-style-type: none;
+  list-style-position: inside;
+  font-weight: 200;
+  /*color: white;*/
+
+}
+
+/*use cases*/
+
+/*.transportation {
+  height: 150px;
+  width: 150px;
+}*/
+/*
+.technical-details {
+  width: 100%;
+}*/
+
+
+
+/*RESPONSIVE*/
 
 /* Mobile Styles */
 @media only screen and (max-width: 415px) {
@@ -193,7 +230,7 @@ figcaption {
 
   .left-column,
   .right-column {
-    width: 100%;
+    width: 95%;
   }
 
   .left-column img {
@@ -214,41 +251,4 @@ figcaption {
   /*body {
     background-color: #B2D6FF;
   }*/
-}
-
-/*.product-benefits{
-  background-color: red;
-}
-
-.vorteile{
-  width: 50%;
-  float: left;
-  padding: 20px;
-  background-color: white;
-}
-
-.use-cases{
-  width: 50%;
-  float: left;
-  padding: 20px;
-  background-color: white;
-}
-
-.title {
-  text-align: center;
-}
-
-
-
-.transportation {
-  height: 150px;
-  width: 150px;
-}
-
-.technical-details {
-  width: 100%;
-}
-*/
-figure{
-   text-align: center;
 }
