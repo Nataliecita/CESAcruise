@@ -164,6 +164,15 @@ figcaption {
 }
 
 /*technical details*/
+.container-2 p{
+  font-size: 16px;
+  font-weight: 400;
+  /*color: #86939E;*/
+}
+
+.brand {
+  font-weight: bold;
+}
 
 /*use cases*/
 
