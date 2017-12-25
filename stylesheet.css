@@ -42,8 +42,7 @@ html, body {
 
 /* Product Configuration */
 /*"selector"*/
-.product-color span,
-.cable-config span {
+.product-color span{
   font-size: 14px;
   font-weight: 400;
   color: #86939E;
