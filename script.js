@@ -8,7 +8,7 @@ $(document).ready(function() {
 
   // scroll down from main image
   $('a[href^="#down"]').on('click', function(event) {
-      var target = $(this.getAttribute('href'));
+    var target = $(this.getAttribute('href'));
       if( target.length ) {
           event.preventDefault();
           $('html, body').stop().animate({
