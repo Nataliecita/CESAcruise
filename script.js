@@ -4,4 +4,17 @@ $(document).ready(function() {
       $('.active').removeClass('active');
       $(this).addClass('active');
   });
+
+
+  // scroll down from main image
+  $('a[href^="#down"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+      if( target.length ) {
+          event.preventDefault();
+          $('html, body').stop().animate({
+              scrollTop: target.offset().top
+          }, 2500);
+      }
+  });
+
 });

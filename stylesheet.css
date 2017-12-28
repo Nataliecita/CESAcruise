@@ -42,8 +42,7 @@ html, body {
 
 /* Product Configuration */
 /*"selector"*/
-.product-color span,
-.cable-config span {
+.product-color span{
   font-size: 14px;
   font-weight: 400;
   color: #86939E;
@@ -130,9 +129,22 @@ html, body {
 }
 
 #slogan {
-  text-shadow: 4px 4px 4px #aaa;
   font-size: 24px;
 }
+
+/*scroll image*/
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: inherit;
+}
+a:hover {
+    text-shadow: 4px 4px 4px #aaa;
+}
+
 
 .title {
    text-align: center;
